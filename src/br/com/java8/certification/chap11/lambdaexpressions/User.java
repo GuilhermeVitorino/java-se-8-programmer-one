@@ -1,4 +1,4 @@
-package br.com.chap11.lambdaexpressions.certification;
+package br.com.java8.certification.chap11.lambdaexpressions;
 // Java program to demonstrate working of predicates 
 // on collection. The program finds all admins in an 
 // arrayList of users. 

@@ -1,4 +1,4 @@
-package br.com.chap11.lambdaexpressions.certification;
+package br.com.java8.certification.chap11.lambdaexpressions;
 
 public class Guitar {
 	public static void main(String[] args) {
