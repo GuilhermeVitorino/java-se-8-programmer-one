@@ -1,4 +1,4 @@
-package br.com.cap13.lambdaexpression.certification;
+package br.com.java8.certification.cap13.lambdaexpression;
 
 class Person {
 	private String name;

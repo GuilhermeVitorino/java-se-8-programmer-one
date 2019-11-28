@@ -1,4 +1,4 @@
-package br.com.cap13.java8.certification;
+package br.com.java8.certification.cap13;
 
 import java.time.*;
 import java.time.temporal.ChronoField;
@@ -7,8 +7,10 @@ import java.time.temporal.ChronoUnit;
 public class CalendarData {
 	public static void main(String[] args) {
 		LocalDate d = LocalDate.of(2013, 9, 7);
-		d = d.plusWeeks(3).minus(3, ChronoUnit.WEEKS);
+		d = d.plusWeeks(3).minus(4, ChronoUnit.WEEKS);
 		System.out.println(d);
+		
+		System.out.println(YearMonth.now().toString());
 		
 		System.out.println(YearMonth.now().isSupported(ChronoField.DAY_OF_MONTH));
 		System.out.println(YearMonth.now().isSupported(ChronoUnit.MONTHS));

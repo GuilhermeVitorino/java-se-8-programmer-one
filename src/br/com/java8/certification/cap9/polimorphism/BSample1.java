@@ -1,4 +1,4 @@
-package br.com.cap9.polimorphism.certification;
+package br.com.java8.certification.cap9.polimorphism;
 
 //Chapter 9, page 290
 

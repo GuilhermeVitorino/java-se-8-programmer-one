@@ -1,4 +1,4 @@
-package br.com.cap9.thisandsuper.certification;
+package br.com.java8.certification.cap9.thisandsuper;
 
 class Vehicle{
 	double speed = 50;
