@@ -4,8 +4,10 @@ public class StringBuilderTests {
 	
 	public static void main(String[] str) {
 		//append method
+		//StringBuffer strb = new StringBuffer("Shiver Me Timbers!");
 		StringBuilder strb = new StringBuilder("Shiver Me Timbers!");
-		strb.append(", ok?xpto", 0, 5); // 0 and 5 is like a substring...
+		
+		strb.append(", ok?xpto",0, 5); // 0 and 5 is like a substring...
 		System.out.println(strb);
 		
 		strb.append(new char[]{'*','n','o','k', '?'}, 0, 1);
@@ -15,6 +17,7 @@ public class StringBuilderTests {
 		System.out.println(strb);
 		
 		//insert method
+		//strb = new StringBuffer("Shiver Me Timbers!");
 		strb = new StringBuilder("Shiver Me Timbers!");
 		strb.insert(17, " and Bricks");
 		System.out.println(strb);
@@ -28,6 +31,7 @@ public class StringBuilderTests {
 		System.out.println(strb);
 		
 		//reverse method
+		//strb = new StringBuffer("Shiver Me Timbers!");
 		strb = new StringBuilder("Shiver Me Timbers!");
 		System.out.println(strb.reverse());
 	}

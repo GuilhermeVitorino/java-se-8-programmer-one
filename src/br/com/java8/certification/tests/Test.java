@@ -31,4 +31,9 @@ public class Test {
 		
 	}
 	
+	public void method() {
+		float flt = 1;
+		this.flt = flt;
+	}
+	
 }
