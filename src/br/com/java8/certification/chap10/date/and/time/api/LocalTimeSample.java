@@ -20,7 +20,7 @@ public class LocalTimeSample {
 		LocalTime lt4  = LocalTime.of(11, 59, 01); //Hour, minutes, seconds
 		System.out.println("LocalTime.of(11, 59, 01) -> " + lt4);
 		
-		LocalTime lt5  = LocalTime.NOON; //MIN, MAX, MIDNIGHT as well
+		LocalTime lt5  = LocalTime.MIDNIGHT; //MIN(00:00), MAX(23:59:59.999999999), MIDNIGHT(00:00) as well
 		System.out.println("LocalTime.NOON -> " + lt5);
 		
 		LocalTime lt6  = LocalTime.of(12, 0, 0, 1); //Hour, minutes, seconds, nanos

@@ -3,6 +3,7 @@ package br.com.java8.certification.chap10.date.and.time.api;
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.Period;
+import java.time.temporal.ChronoUnit;
 
 public class CalendarPeriods {
 
@@ -45,7 +46,7 @@ public class CalendarPeriods {
 		Period period_get = Period.of(5, 1, 14);
 		int years  = period_get.getYears();
 		int months = period_get.getMonths();
-		int days   = period_get.getDays();
+		long days   = period_get.get(ChronoUnit.DAYS);
 		
 		System.out.println("years: " + years + ", months: " + months + ", days: " + days);
 		
@@ -55,15 +56,15 @@ public class CalendarPeriods {
 		System.out.println("\n#period with[interval] methods:");
 		
 		Period period_with = Period.of(1, 1, 1); //1 year, 1 month, 1 day
-		period_with = period_with.withYears(5);
+		period_with = period_with.withYears(5); //Changes years only
 		System.out.println(period_with);
 		
 		Period period_with2 = Period.of(1, 1, 1); //1 year, 1 month, 1 day
-		period_with2 = period_with2.withMonths(5);
+		period_with2 = period_with2.withMonths(5); //Changes months only
 		System.out.println(period_with2);
 		
 		Period period_with3 = Period.of(1, 1, 1); //1 year, 1 month, 1 day
-		period_with3 = period_with3.withDays(5);
+		period_with3 = period_with3.withDays(5); //Changes days only
 		System.out.println(period_with3);
 		
 		
